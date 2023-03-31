@@ -1,0 +1,13 @@
+<APIProxy revision="1" name="sample-hello-cicd">
+    <DisplayName></DisplayName>
+    <Description>A sample API proxy to demonstrate Apigee CI/CD using CloudBuild</Description>
+    <CreatedAt>1680222442270</CreatedAt>
+    <LastModifiedAt>1680222442270</LastModifiedAt>
+    <BasePaths>/v1/samples/hello-cicd</BasePaths>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

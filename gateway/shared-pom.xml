@@ -16,10 +16,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>apigee</groupId>
-    <!-- <artifactId>sample-hello-cicd</artifactId> -->
     <artifactId>parent-pom</artifactId>
     <version>v1</version>
-    <!-- <name>sample-hello-cicd</name> -->
     <packaging>pom</packaging>
     <pluginRepositories>
         <pluginRepository>
@@ -35,13 +33,16 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
+    <modules>
+        <module>test-v1</module> 
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <org.slf4j.simpleLogger.defaultLogLevel>info</org.slf4j.simpleLogger.defaultLogLevel>
         <project.root.dir>${basedir}</project.root.dir>
-        <target.root.dir>${basedir}/target</target.root.dir>
+        <target.root.dir>${basedir}/target/apiproxy</target.root.dir>
         <apigee.deploy.version>2.3.5</apigee.deploy.version>
     </properties>
 
@@ -88,10 +89,10 @@
                                 <resource>
                                     <!--source -->
                                     <directory>${project.root.dir}</directory>
-                                    <filtering>true</filtering>
+                                    <!-- <filtering>true</filtering>
                                     <includes>
                                         <include>apiproxy/**</include>
-                                    </includes>
+                                    </includes> -->
                                 </resource>
                             </resources>
                             <!--target -->
