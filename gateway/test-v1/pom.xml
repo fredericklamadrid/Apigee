@@ -11,14 +11,14 @@
 	<parent>
 		<artifactId>parent-pom</artifactId>
 		<groupId>apigee</groupId>
-		<version>1.0</version>
+		<version>v1</version>
 		<relativePath>../shared-pom.xml</relativePath>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>apigee</groupId>
 	<artifactId>test</artifactId>
-	<version>1.0</version>
+	<version>v1</version>
 	<name>test-v1</name>
 	<packaging>pom</packaging>
 </project>
