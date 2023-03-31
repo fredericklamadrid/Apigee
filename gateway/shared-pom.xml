@@ -34,7 +34,8 @@
         </pluginRepository>
     </pluginRepositories>
     <modules>
-        <module>test-v1</module> 
+        <module>test-v1</module>
+        <moduke>sample-hello-cicd</module>
     </modules>
 
     <properties>
