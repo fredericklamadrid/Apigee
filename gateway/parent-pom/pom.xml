@@ -40,6 +40,10 @@
             <main.basedir>${project.basedir}</main.basedir>
     </properties>
 
+    <modules>
+        <module>../test-v1</module>
+    </modules>
+
     <build>
         <plugins>
             <plugin>
