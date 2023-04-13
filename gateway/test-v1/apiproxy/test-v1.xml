@@ -1,12 +1,19 @@
-<APIProxy revision="1" name="test-v1">
+<APIProxy revision="2" name="test-v1">
     <DisplayName></DisplayName>
     <Description>for testing</Description>
-    <CreatedAt>1674454582258</CreatedAt>
-    <LastModifiedAt>1674454582258</LastModifiedAt>
+    <CreatedAt>1681257978246</CreatedAt>
+    <LastModifiedAt>1681259322594</LastModifiedAt>
     <BasePaths>/v1/test</BasePaths>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>JavaScript-1</Policy>
+    </Policies>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>
     </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
     <TargetEndpoints>
         <TargetEndpoint>default</TargetEndpoint>
     </TargetEndpoints>
